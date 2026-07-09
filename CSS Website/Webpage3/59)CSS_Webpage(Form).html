@@ -1,0 +1,113 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+		<title>CSS Webpage(Form)</title>
+	</head>
+	<style type="text/css">
+		body
+		{
+			background-color: Green;
+			text-align: center;
+		}
+		form
+		{
+			max-width: 500px;
+			padding: 30px;
+			box-shadow: 2px;
+		}
+		.form-control
+		{
+			text-align: left;
+			margin-bottom: 25px;
+		}
+		.form-control label
+		{
+			display: block;
+			margin-bottom: 10px;
+		}
+		.form-control input,
+		.form-control select,
+		.form-control textarea,
+		{
+			border: 1px;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"],
+		{
+			display: inline-block;
+			width: auto;
+		}
+	</style>
+	<body>
+		<h1><center>FORM</center></h1>
+		<hr>
+		<form id="form">
+		<div class="form-control">
+			<label for="Name" id="label-name">Name</label>
+			<br>
+			<input type="text" name="Username" id="Username">
+		</div>
+			<br>
+		<div class="form-control">
+			<label for="Email" id="label-email">Email</label>
+			<br>
+			<input type="Email" name="Email" id="Email">
+		</div>
+			<br>
+		<div class="form-control">
+			<label for="Age" id="label-Age">Age</label>
+			<br>
+			<input type="text" name="Age">
+		</div>
+			<br>
+		<div class="form-control">
+			<label for="role" id="label-role">Which option best describes you best?</label>
+			<br>
+			<select name="option" id="option" style="width: 160px">
+				<option value="None">None</option>
+				<option value="Student">Student</option>
+				<option value="Teacher">Teacher</option>
+				<option value="Assistent Teacher">Assistent Teacher</option>
+			</select>
+		</div>
+			<br>
+		<div class="form-control">
+			<label>Would you recommend Learnomine your friend?</label>
+			<br>
+			<label for="recommed-1">
+			<input type="radio" id="recommed-1" name="recommed">Yes</label>
+			<label for="recommed-2">
+			<input type="radio" id="recommed-2" name="recommed">No</label>
+			<label for="recommed-3">
+			<input type="radio" id="recommed-3" name="recommed">Maybe</label>
+		</div>
+			<br>
+		<div class="form-control">
+			<label>Language and Framework known</label>
+			<br>
+			<input type="checkbox" name="C" id="C" value="C">C<br>
+			<input type="checkbox" name="C#" id="C#" value="C#">C#<br>
+			<input type="checkbox" name="C++" id="C++" value="C++">C++<br>
+			<input type="checkbox" name="HTML" id="HTML" value="HTML">HTML<br>
+			<input type="checkbox" name="CSS" id="CSS" value="CSS">CSS<br>
+			<input type="checkbox" name="Javascript" id="Javascript" value="Javascript">Javascript<br>
+			<input type="checkbox" name="PHP" id="PHP" value="PHP">PHP
+		</div>
+			<br>
+		<div class="form-control">
+			<label for="comment">Any comment or suggestions</label>
+			<br>
+			<textarea></textarea>
+		</div>	
+			<br>
+		<div>
+			<input type="Submit" value="Submit">
+		</div>
+		</form>
+	</body>
+	</html>

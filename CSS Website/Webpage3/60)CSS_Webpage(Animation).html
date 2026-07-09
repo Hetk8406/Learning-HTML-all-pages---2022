@@ -1,0 +1,52 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+		<title>CSS Webpage(Animation)</title>
+	</head>
+	<style type="text/css">
+		h1
+		{
+
+			/*text-shadow: Green;
+			text-overflow: Blue;*/
+			word-spacing: 5px;
+			/*padding: 35px;*/
+		}
+		.inframe
+		{
+			height: 500px;
+			width: 700px;
+
+			background-image: url('C.jpg');
+			animation: slider 15s infinite Linear;
+		}
+		@keyframes slider
+		{
+			0%
+			{
+				background-image: url("C.jpg");
+			}
+			25%
+			{
+				background-image: url("C++.jpg");
+			}
+			50%
+			{
+				background-image: url("CSS.jpg");
+			}
+			75%
+			{
+				background-image: url("HTML.jpg");
+			}
+			100%
+			{
+				background-image: url("Java.jpg");
+			}
+		}
+	</style>
+	<body>
+		<h1><center>CSS Animation</center></h1>
+		<hr>
+		<center><div class="inframe"></div></center>
+	</body>
+	</html>

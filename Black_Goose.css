@@ -1,0 +1,16 @@
+img
+{
+	border: 1px solid ;
+	border-radius: 5px; 
+	alignment-baseline: central;
+	padding: 5px;
+	width: 150px;
+}
+h3
+{
+	color: red;
+}
+p
+{
+	font-style: Arial;
+}

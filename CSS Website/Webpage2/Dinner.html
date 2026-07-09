@@ -1,0 +1,83 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+		<title>Dinner</title>
+	</head>
+	<style>
+	header
+		{
+			background-color: Cyan;
+			word-spacing: 25px;
+			font-size: 40px;
+		}
+	img
+		{
+			border: 1px;
+			border-radius: 4px;
+			padding: 5px;
+			width: 150px;
+		}
+		.column
+		{
+			float: left;
+			padding: 10px;
+		}
+	.column.side
+		{
+			width: 30%;
+		}
+	.column.middle
+		{
+			width: 30%;
+		}
+	.row:after
+		{
+			content: "";
+			display: table;
+			clear: both;
+		}
+	@media screen and (max-width: 600px)
+	{
+		.column middle,
+		{
+			width: 100%;
+		}
+	}
+	</style>
+	<body>
+		<h1><center>Dinner</center></h1>
+		<hr>
+		<header>
+			<a href="55)CSS_webpage_food.html">Home</a>
+			<a href="Breakfast.html">Breakfast</a>
+			<a href="Lunch.html">Lunch</a>
+		</header>
+		<div class="row">
+		<div class="column side">
+			<h2>Advantage of Dinner</h2>
+		<p>
+			Experts suggest that dinner should be eaten within 7 pm. Eating an early and light dinner helps to improve sleep, improves digestion, boosts &nbsp; metabolism and also reduces blood pressure, keeping you healthy.
+		</p>
+		</div>
+		<div class="column middle">
+			<h2>Image</h2>
+		<img src="Dinner1.jpg" width="200px">
+		<img src="Dinner2.jpg" width="200px">
+		<img src="Dinner3.jpg" width="200px">
+		<img src="Dinner4.jpg" width="200px">
+		<img src="Dinner5.jpg" width="200px">
+		<img src="Dinner6.jpg" width="200px">
+		<img src="Dinner7.jpg" width="200px">
+		<img src="Dinner8.jpg" width="200px">
+		<img src="Dinner9.jpg" width="200px">
+		<img src="Dinner10.jpg" width="200px">
+		</div>
+		<div class="column side">
+			<h2>Video</h2>
+			<video width="200px" height="300px" controls>
+				<source src="Dinner video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+	</body>
+	</html>
